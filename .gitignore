@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Virtual envs (keep uv.lock / pyproject.toml tracked)
+.venv/
+venv/
+env/
+
+# Datasets, feature/frame caches and generated artifacts
+data/
+outputs/
+**/cache*/
+
+# Model weights (large — use Git LFS if you need to version them)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# MATLAB
+*.asv
+*.mat
+slprj/
+
+# Editors / IDE
+.vscode/
+.idea/
